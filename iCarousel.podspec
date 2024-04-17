@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iCarousel'
-  s.version          = '1.9.0'
+  s.version          = '1.9.1'
   s.summary          = 'A class designed to simplify the implementation of various types of carousel.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   
   s.subspec 'Privacy' do |ss|
       ss.resource_bundles = {
-        "Privacy" => 'iCarousel/PrivacyInfo.xcprivacy'
+          s.name => 'iCarousel/PrivacyInfo.xcprivacy'
       }
   end
 end
